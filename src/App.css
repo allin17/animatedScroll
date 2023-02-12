@@ -1,0 +1,31 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #525298;
+  min-width: 30vw;
+  height: 100px;
+  font-weight: 700;
+  font-size: 20px;
+  transition: transform 0.8s ease 0s, opacity 0.5s ease 0.5s;
+  margin: 25px;
+  opacity: 0.5;
+  transform: translateY(-20px);
+}
+
+.item.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.text {
+  color: white;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
